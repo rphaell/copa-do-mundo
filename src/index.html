@@ -3,26 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Copa do Mundo 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="">
+            <img class="hero__logo" src="./images/2026_FIFA_World_Cup_emblem.svg.png" alt="EBAC Logo">
             <p class="hero__text">
-                O maior evento de tecnologia do brasil começa 10d 12h 20m 15s
+                A Copa do Mundo de 2026 começa em  <br> <span style="color: yellow;">500d 12h 20m 15s</span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Estados Unidos, Canadá e México
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data de Início</b>
+                        8 de junho de 2026
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data de Término</b>
+                        8 de julho de 2026
+                    </li>
+                </ul>
+                <a href="" class="button button--primary">
+                    Saiba Mais
+                </a>
+            </div>
         </div>
     </header>
+
+    <section class="event event--topic1">
+        <div class="container"  data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre a Copa do Mundo 2026</h2>
+                <p class="event__details__description">A Copa do Mundo de 2026 será a 23ª edição do torneio, realizada pela primeira vez em três países: Estados Unidos, Canadá e México. Este evento histórico contará com 48 equipes, prometendo uma competição cheia de emoções e momentos inesquecíveis para os fãs de futebol ao redor do mundo.</p>
+            </div>
+            <img class="event__image" src="./images/topic1pic.jpg" alt="Front-end">
+        </div>
+    </section>
+
+    <section class="event event--topic2 event--image-left">
+        <div class="container"  data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Estádios e Infraestrutura</h2>
+                <p class="event__details__description">Os jogos serão realizados em 16 cidades-sede, distribuídas pelos três países anfitriões. Cada estádio foi selecionado com base em sua capacidade e modernidade, garantindo uma experiência incrível para os espectadores. A infraestrutura inclui estádios icônicos como o Estádio Azteca na Cidade do México e o MetLife Stadium em Nova Jersey.</p>
+            </div>
+            <img class="event__image" src="./images/topic2pic.jpg" alt="Front-end">
+        </div>
+    </section>
+
+    <section class="event event--topic3">
+        <div class="container"  data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Novidades no Formato</h2>
+                <p class="event__details__description">Pela primeira vez na história da Copa do Mundo, o torneio contará com 48 equipes, aumentando o número de seleções participantes. Esta expansão proporcionará mais oportunidades para países ao redor do mundo competirem no maior palco do futebol, e promete jogos ainda mais diversificados e emocionantes.</p>
+            </div>
+            <img class="event__image" src="./images/topic3pic.png" alt="Front-end">
+        </div>
+    </section>
+
+    <section class="event event--topic4 event--image-left">
+        <div class="container"  data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Impacto Cultural e Econômico</h2>
+                <p class="event__details__description">A Copa do Mundo de 2026 não será apenas um evento esportivo, mas também uma celebração cultural que unirá pessoas de diferentes origens. Espera-se que o torneio tenha um impacto econômico significativo nas cidades-sede, gerando empregos, promovendo o turismo e impulsionando o comércio local.</p>
+            </div>
+            <img class="event__image" src="./images/topic4pic.jpeg" alt="Front-end">
+        </div>
+    </section>
     
+    <!-- efeto AOS, deslize de imagem -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     
-
-
-
+    <!-- scripts gerais -->
     <script src="scripts/main.js"></script>
+
 </body>
 </html>

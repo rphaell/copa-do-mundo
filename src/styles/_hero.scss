@@ -1,7 +1,9 @@
+@use 'variables';
+
 .hero {
     padding-top: 64px ;
     padding-bottom: 100px ;
-    background-image: url(../images/fundo.png);
+    background-image: url(../images/stadium.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -16,9 +18,9 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: black;
+        background-color:variables.$secondaryTextColor; //overlay
         content: '';
-        opacity: 0.7;
+        opacity: 0.6;
     }
 
     &__text {
@@ -34,12 +36,14 @@
         margin:0 auto;
         height: 80px;
         display: block;
+        height: 120px ;
+
     }
 
     @media (max-width:640px) {
         padding: 40px 0;
         &__logo {
-            height:40px;
+            height:100px;
         }
 
         &__text {
